@@ -1,0 +1,13 @@
+import scipy.io as sc
+
+x = sc.loadmat("Subj_WJ0703_SoftSpeech_20210310T140017.mat")
+
+#I wanted to see if I could load/read the file in before finding the specific variable that houses subject accuracy
+#The .mat file was in the same directory as the script
+
+
+#Output: /Users/Fen/opt/anaconda3/envs/Rotation3/lib/python3.7/site-packages/scipy/io/matlab/mio.py:226: MatReadWarning: Duplicate variable name "None" in stream - replacing previous with new
+Consider mio5.varmats_from_mat to split file into single variable files
+  matfile_dict = MR.get_variables(variable_names)
+
+Process finished with exit code 0
